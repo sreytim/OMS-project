@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap');
+/* ---------- Height ---------- */
+.h-100vh{
+    height: 100vh !important;
+}
+
+/* ---------- Font ---------- */
+.font-varela{
+    font-family: "Varela Round", sans-serif;
+}
+/* ---------- hover-bi ---------- */
+.bi:hover{
+    cursor: pointer;
+}
+
+/* ---------- hover-bi ---------- */
+.hover-li{
+    transition: 0.2s;
+}
+.hover-li:hover{
+    background: #7709406a;
+    transition: 0.2s;
+}
+/* ---------- bg-pink ----------- */
+.bg-pink{
+    background-color: #c11c84 !important;
+}
+.text-pink{
+    color: #c11c84 !important;
+}
+/* ---------- text-limit -------- */
+.text-limit-1line {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+ }
+.text-limit-2line {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+ }
+
+ /* ---------- Scroll-bar-design -----------= */
+.overflow-y-scroll {
+    max-height: 500px; /* Adjust height as needed */
+    overflow-y: auto;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.overflow-y-scroll::-webkit-scrollbar {
+    width: 0px; /* Set the scrollbar width */
+}
+
+.scroll-none::-webkit-scrollbar{
+    width: 0px;
+}
+
+.text-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
